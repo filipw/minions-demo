@@ -46,9 +46,9 @@ Once the setup is complete, simply run the demo script from your terminal: `pyth
 
 The demo executes the MINIONS protocol in three main steps:
 
-1.  **Step 1: Job Preparation:** The remote "manager" model creates jobs by generating code that is executed locally. To maintain demo determinism and simplicity, the jobs are hardcoded in this demo.
+1.  **Step 1: Job Preparation:** The remote "manager" Azure OpenAI model creates jobs by generating code that is executed locally.
 2.  **Step 2: Job Execution:** The local "minion" model (running on-device via MLX) runs the jobs on document chunks and filters the results.
-3.  **Step 3: Aggregation & Synthesis:** The remote "manager" in Azure OpenAI model receives the filtered results and provides the final answer.
+3.  **Step 3: Aggregation & Synthesis:** The remote "manager Azure OpenAI model receives the filtered results and provides the final answer.
 
 ## Acknowledgements
 
